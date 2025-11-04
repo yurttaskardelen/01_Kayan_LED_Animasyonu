@@ -4,7 +4,6 @@ Bu proje, **STM32F407-Discovery** kartı üzerinde 4 adet LED kullanarak klasik 
 
 Proje, STM32CubeIDE ve HAL kütüphanesi kullanılarak geliştirilmiştir. Temel GPIO (General Purpose Input/Output) ve `HAL_Delay` fonksiyonlarının pratik bir uygulamasıdır.
 
-> **İpucu:** Bu projeyi kart üzerinde çalıştırıp kısa bir videosunu çekin, [ezgif.com](https://ezgif.com/) gibi bir sitede GIF'e dönüştürün ve bu satırın yerine `![Animasyon](GIF_LINKINIZ)` olarak ekleyin. Bu, projenizi "canlandırır".
 
 ---
 
