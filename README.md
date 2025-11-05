@@ -1,9 +1,14 @@
-# STM32F407 ile Kayan LED Animasyonu 
+# STM32F407 ile Kayan LED Animasyonu (v1 - Temel Yöntem)
 
 Bu proje, **STM32F407-Discovery** kartı üzerinde 4 adet LED kullanarak klasik **Kara Şimşek (Knight Rider)** benzeri bir ileri-geri kayan ışık animasyonu gerçekleştirir.
 
-Proje, STM32CubeIDE ve HAL kütüphanesi kullanılarak geliştirilmiştir. Temel GPIO (General Purpose Input/Output) ve `HAL_Delay` fonksiyonlarının pratik bir uygulamasıdır.
+Proje, STM32CubeIDE ve HAL kütüphanesi kullanılarak geliştirilmiştir. Bu versiyon, her bir LED'in ayrı komutlarla (`HAL_GPIO_WritePin`, `HAL_Delay`) kontrol edildiği, konunun **en temel ve açık** halini gösteren bir uygulamadır.
 
+> **💡 İyileştirilmiş Versiyon (Refactor Edilmiş Kod)**
+>
+> Bu projenin, kod tekrarını önleyen (DRY Prensibi), diziler (`array`) ve `for` döngüleri kullanılarak yazılmış **daha kısa ve profesyonel** bir versiyonu da mevcuttur.
+>
+> ➡️ **[02_Kayan_LED_Animasyonu_Kisa_Kod](https://github.com/yurttaskardelen/02_Kayan_LED_Animasyonu_Kisa_Kod)** deposuna göz atabilirsiniz.
 
 ---
 
